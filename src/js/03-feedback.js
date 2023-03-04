@@ -11,8 +11,6 @@ emailInput.addEventListener('input', throttle(handleInput, 500));
 messageInput.addEventListener('input', throttle(handleInput, 500));
 submitForm.addEventListener('click', onFormSubmit);
 window.addEventListener('load', handleLoad);
-
-populateTextarea();
 // Ця функція є обробником події input для полів форми
 function handleInput() {
   const state = {
